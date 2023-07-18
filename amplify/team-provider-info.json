@@ -17,6 +17,9 @@
           "appId": "d1kg93qrh2i7fq",
           "type": "cicd"
         }
+      },
+      "api": {
+        "hsouvarietylifegame": {}
       }
     }
   }
