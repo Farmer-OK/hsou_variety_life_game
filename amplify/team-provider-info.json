@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hsouvarietylifegame-dev-225116-authRole",
+      "UnauthRoleArn": "arn:aws:iam::556516110552:role/amplify-hsouvarietylifegame-dev-225116-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::556516110552:role/amplify-hsouvarietylifegame-dev-225116-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-hsouvarietylifegame-dev-225116-deployment",
+      "UnauthRoleName": "amplify-hsouvarietylifegame-dev-225116-unauthRole",
+      "StackName": "amplify-hsouvarietylifegame-dev-225116",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:556516110552:stack/amplify-hsouvarietylifegame-dev-225116/3022f1c0-2572-11ee-9d47-0add41c3b633",
+      "AmplifyAppId": "d1kg93qrh2i7fq"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1kg93qrh2i7fq",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
