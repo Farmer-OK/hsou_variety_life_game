@@ -11,8 +11,8 @@ frontend:
         - yarn install
     build:
       commands:
+        - NEXT_PRIVATE_STANDALONE=true
         - yarn build
-        - NEXT_PRIVATE_STANDALONE=true npx next export -o standalone
 
   artifacts:
     baseDirectory: standalone
