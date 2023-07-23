@@ -12,11 +12,11 @@ frontend:
     build:
       commands:
         - yarn build
-    export:
-      commands:
-        - yarn export
+    # export:
+    #   commands:
+    #     - yarn export
   artifacts:
-    baseDirectory: out
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
