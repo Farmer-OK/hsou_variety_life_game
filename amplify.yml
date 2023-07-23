@@ -12,11 +12,10 @@ frontend:
     build:
       commands:
         - yarn build
-    # export:
-    #   commands:
-    #     - yarn export
+        - NEXT_PRIVATE_STANDALONE=true npx next export -o standalone
+
   artifacts:
-    baseDirectory: .next
+    baseDirectory: standalone
     files:
       - '**/*'
   cache:
